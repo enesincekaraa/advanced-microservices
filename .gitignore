@@ -1,0 +1,21 @@
+# Build
+**/target/
+**/.gradle/
+**/build/
+
+# IntelliJ
+**/.idea/
+**/*.iml
+
+# Logs
+**/logs/
+*.log
+
+# Configs
+**/application.yml
+**/application-*.yml
+
+# Others
+.DS_Store
+.env
+
