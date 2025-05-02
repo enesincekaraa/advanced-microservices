@@ -4,6 +4,7 @@ public record EmployeeResponse(
         String firstName,
         String lastName,
         String email,
-        String departmentCode
+        String departmentCode,
+        String organizationCode
 ) {
 }

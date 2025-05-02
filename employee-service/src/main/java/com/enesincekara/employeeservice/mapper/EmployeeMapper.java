@@ -13,7 +13,8 @@ public class EmployeeMapper {
                 model.getFirstName(),
                 model.getLastName(),
                 model.getEmail(),
-                model.getDepartmentCode()
+                model.getDepartmentCode(),
+                model.getOrganizationCode()
         );
     }
 
@@ -23,6 +24,7 @@ public class EmployeeMapper {
         employee.setLastName(request.lastName());
         employee.setEmail(request.email());
         employee.setDepartmentCode(request.departmentCode());
+        employee.setOrganizationCode(request.organizationCode());
         return employee;
     }
 }
